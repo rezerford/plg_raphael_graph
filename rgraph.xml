@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content">
+	<name>Raphael SVG Charts</name>
+	<author>JoomPlace Team</author>
+	<creationDate>June 2013</creationDate>
+	<copyright>(C) JoomPlace, www.joomplace.com</copyright>
+	<license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+	<authorEmail>support@joomplace.com</authorEmail>
+	<authorUrl>www.joomplace.com</authorUrl>
+	<version>1.0</version>
+	<description>Draw SVG Graphs</description>
+
+	<files>
+		<filename plugin="rgraph">rgraph.php</filename>
+		<filename>index.html</filename>
+		<filename>js/index.html</filename>
+		<filename>js/barchart.js</filename>
+		<filename>js/dotchart.js</filename>
+		<filename>js/g.raphael.js</filename>
+		<filename>js/line.js</filename>
+		<filename>js/mypopup.js</filename>
+		<filename>js/piechart.js</filename>
+		<filename>js/raphael.js</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field type="spacer" label="Line Chart" hr="true">
+				</field>
+				<field name="colorlabel"
+					type="text"
+					default="#ffffff"
+					description=""
+					label="Color of Label">
+				</field>
+
+				<field name="colorhue"
+					type="text"
+					default="0.6"
+					description=""
+					label="HUE of line">
+				</field>
+								
+				<field name="colorgrid"
+					type="text"
+					default="#000"
+					description=""
+					label="Color of grid">
+				</field>
+				
+				<field name="linewidth"
+					type="text"
+					default="600"
+					description=""
+					label="Width of linechart">
+				</field>
+				
+				<field name="lineheight"
+					type="text"
+					default="250"
+					description=""
+					label="Height of linechart">
+				</field>
+				
+				<field type="spacer" label="Pie Chart" hr="true">
+				</field>
+				
+				<field name="piewidth"
+					type="text"
+					default="800"
+					description=""
+					label="Width of piechart">
+				</field>
+				
+				<field name="pieheight"
+					type="text"
+					default="350"
+					description=""
+					label="Height of piechart">
+				</field>
+				
+				<field name="cx"
+					type="text"
+					default="100"
+					description=""
+					label="X coord of center piechart">
+				</field>
+				
+				<field name="cy"
+					type="text"
+					default="100"
+					description=""
+					label="Y coord of center piechart">
+				</field>
+				
+				<field name="r"
+					type="text"
+					default="100"
+					description=""
+					label="Radius of piechart">
+				</field>
+				<field type="spacer" label="Bar Chart" hr="true">
+				</field>
+				<field name="barwidth"
+					type="text"
+					default="300"
+					description=""
+					label="Barchart width">
+				</field>
+				
+				<field name="barheight"
+					type="text"
+					default="220"
+					description=""
+					label="Barchart height">
+				</field>
+				
+				<field name="bx"
+					type="text"
+					default="10"
+					description=""
+					label="Barchart X coord">
+				</field>
+				
+				<field name="by"
+					type="text"
+					default="10"
+					description=""
+					label="Barchart Y coord">
+				</field>
+				
+				<field name="barcolor"
+					type="text"
+					default="#000077"
+					description=""
+					label="Barchart color">
+				</field>
+				<field type="spacer" label="Dot Chart" hr="true">
+				</field>
+				<field name="dotwidth"
+					type="text"
+					default="620"
+					description=""
+					label="Dotchart width">
+				</field>
+				
+				<field name="dotheight"
+					type="text"
+					default="260"
+					description=""
+					label="Dotchart height">
+				</field>
+				
+				<field name="dx"
+					type="text"
+					default="10"
+					description=""
+					label="Dotchart X coord">
+				</field>
+				
+				<field name="dy"
+					type="text"
+					default="10"
+					description=""
+					label="Dotchart Y coord">
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
